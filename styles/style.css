@@ -48,7 +48,7 @@ footer {
     background-color: #fecd7f;
 }
 .logo {
-    width: 100px;
+    width: 80px;
 }
 .icon {
     width: 80px;
@@ -65,4 +65,5 @@ footer {
 }
 footer p a:hover {
     text-decoration: underline;
+
 }
