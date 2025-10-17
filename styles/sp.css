@@ -1,7 +1,7 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kurale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alike+Angular&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kurale&family=Luxurious+Roman&family=Piedra&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
@@ -11,7 +11,7 @@ Fonts are separated by a & */
   --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Kurale display";
+  --heading-font: "Piedra";
   --paragraph-font: :ital, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
@@ -161,4 +161,5 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
+
 }
