@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Alike+Angular&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Luxurious+Roman&family=Piedra&family=Rakkas&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+body {
+    font-family: "Roboto Flex","Alike Angular",sans-serif;
+    font-size: 22px;
+     margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}   
+header {
+    background-color: #fecd7f;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+.logo {
+    width: 100px;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+nav a {
+    text-align: center;
+    padding: 35px;
+    font-family: "Alike Angular","Roboto Flex",Arial;
+}
+nav a:hover {
+    background-color: #187eaa;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+#page {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+     font-family: Piedra,Rakkas,"Bradly Hand";
+    font-size: 2.5em;
+    letter-spacing: 4px;
+    
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+h3 {
+    font-family: Rakkas,"Bradly Hand";
+    letter-spacing: 3px; 
+    font-size: 1.5em;
+}
+.river1 {
+     display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.riv1img {
+     grid-column: 1/2;
+     margin: 0 auto; 
+     width: 90%;
+     border: 5px solid #fecd7f;
+}
+.rivtex1 {
+    text-align: center;
+    margin: 0 auto;
+    width: 95%;
+    line-height: 30px;
+
+}
+.rivtex1 h3 {
+grid-column: 2/3;
+
+
+}
+.rivtex1 p {
+    grid-column: 2/3;
+
+}
+.river2 {
+     display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.rivtex2 {
+    text-align: center;
+    
+    width: 95%;
+    line-height: 30px;
+    margin-top: 50px;
+}
+.riv2img {
+    width: 85%;
+    margin: 50px;
+    border: 5px solid #fecd7f;
+    
+}
+.river3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.rivtex3 {
+    text-align: center;
+    line-height: 30px;
+    margin-top: 50px;
+}
+.riv3img {
+    border: 5px solid #fecd7f;
+    width: 95%;
+    margin-top: 20px;
+}
+#faq {
+    margin-top: 120px;
+    margin-bottom: 10px;
+}
+#faqsent {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.faqtex h3 {
+    font-size: 1.2em;
+    margin-bottom: 0;
+}
+footer a:hover {
+    background-color: #187eaa;
+    color: #ffffff;
+    text-decoration: underline;
+    padding: 20px;
+}
+footer {
+    font-size: 1.2em;
+    padding: 25px 50px;
+    margin-top: 200px;
+    background-color: #fecd7f;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer .social img {
+    padding-top: 15px;
+}
+footer .social img:hover {
+    background-color: transparent;
+    padding: 0px;
+}
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    #hero-msg h1 {
+        color: #6f7364;
+    }
+    .home-title {
+        font-size: 25px;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
+
+
+
+
+
